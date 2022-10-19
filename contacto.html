@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | DimmItaliano</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Dimmi Italiano</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pastelería.html">Pastelería</a>
+            <a href="salones.html">Salones</a>
+            <a href="escuela.html">Escuela</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <main class="contact">
+        <h2 class="bar">Contactanos:</h2>
+        <form action="datos.html" method="get">
+            <fieldset class="datospersona">
+                <legend>Info</legend>
+                <div class="personaone">
+                    <label for="input_name">Nombre:</label>
+                    <input id="input_name" name="Nombre" type="text" required>
+                    <label for="input_surname">Apellido</label>
+                    <input id="input_surname" name="Apellido" type="text">
+                    <label for="input_adress">Dirección:</label>
+                    <input id="input_adress" name="Dirección" type="text">
+                    <label for="input_email">Email:</label>
+                    <input id="input_email" name="Email" type="text" required>
+                </div>
+                <br>
+                <div class="personatwo">
+                    <label for="input_city">Ciudad:</label>
+                    <input id="input_city" name="Ciudad" type="text">
+                    <label for="input_zipcode">Código Postal:</label>
+                    <input id="input_zipcode" name="CódigoPostal" type="text">
+                    <label for="input_birthday">Fecha de Cumpleaños (mm/dd/yyyy):</label>
+                    <input type="date" id="input_birthday" name="Birth" min="1920-01-01" max="2021-12-31" required>
+                </div>
+                <br>
+                <div class="motivo">
+                    <legend>Motivo de tu consulta:</legend>
+                    <label>
+                        Cumpleaños
+                        <input type="radio" name="motivo" value="Birthday">
+                    </label>
+                    <label>
+                        Salones
+                        <input type="radio" name="motivo" value="Salones">
+                    </label>
+                    <label>
+                        Escuela
+                       <input type="radio" name="motivo" value="Escuela">
+                    </label>
+                </div>
+            </fieldset>
+            <div class="botoncito">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
+        <script>
+            document.write("Muchas gracias por comunicarte con nostros"); 
+        </script>
+          
+
+        <div class="ifram">
+            <h2 class="findus">Nos encontras en:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d976.5168731644915!2d-58.433333383218184!3d-34.589033218928286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58915e39015%3A0x8ef43bf43d702a59!2sGorriti%20Juana%20Manuela%205142%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1665886579507!5m2!1ses-419!2sar" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      
+    </main>
+    <footer>
+        <h3 class="findus">Encontranos en Redes Sociales</h3>
+        <div class="social">
+            <img src="assets/social_facebook_fb_35.ico" alt="facebook"><p>DimmiItaliano</p>
+            <img src="assets/instagram_black_logo_icon_147122.ico" alt="instagram"><p>Dimmi_Italiano</p>
+            <img src="assets/whatsapp_black_logo_icon_147050.ico" alt="whats"><p>+54 11-5844-8610</p>
+            <img src="assets/social_Pinterest_8.ico" alt="pinterest"><p>Dimmi.ItaloPastelero</p>
+        </div>
+    </footer>   
+</body>
+</html>

@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-image: linear-gradient(to bottom right,#44e414 , #F1F6EF ,#f59b89,rgb(255,122,89));
+    background-position: center;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    width: 20vw;
+    font-size: 1.5rem;
+}
+
+nav{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+a{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+*::-webkit-scrollbar {
+    width: 15px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: rgb(139, 240, 130);
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 92, 92);
+    border-radius: 20px;
+    border: 3px solid rgb(243, 188, 188);
+}
+
+/**MAIN**/
+
+main{
+    background-image: url(assets/pexels-karolina-grabowska-4040770.jpg);
+    background-position: center;
+    
+}
+
+section{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+section h2{
+    font-family: 'Caveat', cursive;
+    height: 20vh;
+    font-size: 2.5rem;
+    text-align: center;
+    color: black
+}
+
+section p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+
+/**FOOTER**/
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom right,#14dde4 , #F1F6EF ,#70e9e3,rgba(89, 255, 227, 0.616));
+}
+
+.findus{
+    width: 40vw;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social{
+    height: 10vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+}
+.social img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.social p{
+    display: flex;
+    width: 30vw;
+    margin-left: 0.5rem;
+}
+
+/** PASTELERÍA**/
+
+main.pastel{
+    background-image: url(assets/pasteleriaimg.jpg);
+    background-position: bottom right;
+}
+
+div.article1{
+    font-family: 'Caveat', cursive;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #f1f6ef3d;
+}
+
+article.boda{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+article.quince{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+div.article2{
+    font-family: 'Caveat', cursive;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #f1f6ef3d;
+}
+
+article.graduacion{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+article.cumple{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+div.article3{
+    font-family: 'Caveat', cursive;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: #f1f6ef3d;
+}
+
+article.tematicos{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+    background-color: #f1f6ef3d;
+}
+
+a.amas{
+    border: 5px groove rgba(0, 0, 0, 0.445);
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    position: relative;
+    top: 1rem; left: 5rem;
+}
+
+/**CONTACTO**/
+main.contact{
+    background-image: url(/assets/contactoimagen.jpg);
+    background-position: center left;
+}
+
+h2.bar{
+    text-align: center;
+    font-size: 2rem;
+}
+
+fieldset.datospersona{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+}
+
+div.personaone{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.personatwo{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.motivo{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton{
+    font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	text-align: center;
+	color: #02071b;
+    cursor: pointer;
+    max-width: 200px; 
+    width: 100%; 
+    outline: 3px solid;
+    outline-color: rgba(0, 5, 14, 0.87);
+    outline-offset: 3px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    border-bottom: 10px;
+    background-color: rgba(235, 96, 96, 0.651);
+}
+.boton:hover{
+    color: rgb(247, 247, 247);
+    outline-color: rgba(28, 236, 20, 0.521);
+    outline-offset: 100px;
+}
+
+.botoncito{
+    display: flex;
+    justify-content: center;
+}
+
+div.ifram{
+    background-color: #02071b21;
+    width: 45%;
+}
+
+h2.findus{
+    text-align: center;
+    font-size: 2rem;
+}
+
+iframe{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/**SALONES**/
+
+main.salon{
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/pexels-taylor-marx-14006782.jpg);
+    flex-direction: column;
+}
+
+h2.oursalon{
+    color: #fafcf9;  
+}
+
+a{
+    text-decoration: none;
+}
+
+.carousel{
+    margin: 0px 60px;
+    width: 100%;
+}
+
+.carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    text-align: center;
+}
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.slick{
+    position: relative;
+    width: 400px;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+    background-color: #02071b62
+}
+
+.slick h4 small{
+    font-size: 15px;
+    display: block;
+    background-color: #02071b62;
+    margin-top: 10px;
+}
+
+.slick a img{
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3 ease-in-out;
+}
+
+.slick a img:hover{
+    opacity: .85;
+}
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+} 
+
+.slick-arrow:focus{
+    outline: 0;
+}
+
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+
+.slick-next{
+    right: 0px;
+}
+
+.bar{
+    color: yellow;
+    letter-spacing: 0.5rem;
+    margin-top: 1rem;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+
+table{
+    border: solid rgb(12, 230, 30);
+    border-collapse: separate;
+    width: 60vw;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(15, 3, 3);
+    background-color: rgba(255, 255, 255, 0.671);
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+}
+ 
+th, td{
+    border-collapse: separate;
+    border: solid rgb(42, 235, 58);
+}
+ 
+td{
+    text-align: center;
+}
+ 
+
+
+
+
+
+
+
