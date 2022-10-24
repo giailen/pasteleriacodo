@@ -167,7 +167,7 @@ div.article3{
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #f1f6ef3d;
 }
 
@@ -176,6 +176,14 @@ article.tematicos{
     font-size: 1.5rem;
     width: 40%;
     background-color: #f1f6ef3d;
+}
+
+article.corporativos{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+    background-color: #f1f6ef3d;
+
 }
 
 a.amas{
@@ -414,9 +422,140 @@ td{
     text-align: center;
 }
  
+/*ESCUELA*/
 
+div.articleescuela{
+    font-family: sans-serif;
+    margin: auto;
+    padding: 30px 0;
+    background-image: url(pasteleriaimg.jpg);
+    background-size: cover;
+}
 
+ 
+article.titulo{
+    color: #eb6060a6;
+    font-size: 2em;
+    text-align: center;
+}
 
+#div1{
+    background-color: #FFF;
+    width: 50%;
+    float: right;
+    background: url(escuela.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+#div2{
+    
+    font-family: sans-serif;
+    background-color: #fff;
+    width: 50%;
+    height: 60vh;
+    padding:20px;
+    text-align: justify;
+}
+
+.testimonios{
+    font-family: sans-serif;
+    padding: 40px 0;
+    background: none;
+    color: #434343;
+    text-align: center;
+}
+
+.contenido{
+    margin:auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.borde{
+    width: 160px;
+    height: 5px;
+    background: #eb6060a6;
+    margin: 26px auto;
+}
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.columna{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.review1{
+    background: #fff;
+    padding: 30px;
+}
+
+.review1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nombre{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.estrellas{
+    color: #eb6060a6;
+    margin-bottom: 20px;
+}
+
+.modalidades{
+    font-family: sans-serif;
+    padding: 40px 0;
+    background: none;
+    color: #434343;
+    text-align: center;
+}
+
+.espacio{
+    margin:auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.filaespacio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.columespacio{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.mod{
+    background: #fff;
+    padding: 30px;
+}
+
+.tipos{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+/*FIN ESCUELA */
 
 
 
